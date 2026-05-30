@@ -17,17 +17,7 @@ from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import Pipeline# 당뇨망막병증(DR) 학습용 — 기본 앱(requirements.txt)과 분리해 필요할 때만 설치
-kaggle>=1.6
-torch>=2.0
-torchvision>=0.15
-pillow
-tqdm
-scikit-learn>=1.0
-numpy
-pandas
-matplotlib
-
+from sklearn.pipeline import Pipeline
 from sklearn.metrics import (
     classification_report,
     confusion_matrix,
