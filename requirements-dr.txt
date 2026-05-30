@@ -1,0 +1,10 @@
+# 당뇨망막병증(DR) 학습용 — 기본 앱(requirements.txt)과 분리해 필요할 때만 설치
+kaggle>=1.6
+torch>=2.0
+torchvision>=0.15
+pillow
+tqdm
+scikit-learn>=1.0
+numpy
+pandas
+matplotlib
